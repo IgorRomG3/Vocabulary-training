@@ -37,7 +37,8 @@ outer:while (true) {
       if(englishWord===null) {
         alert('Goodbye');
         break outer;
-      }else {
+      }
+      if (englishWord==rusWords[rand]) {
         alert('Correct! Translation is: ' + rusWords[rand]);
       }
     }
